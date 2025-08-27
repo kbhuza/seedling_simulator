@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 st.title("🌱 Commercial Seedling Nursery Simulation")
-st.markdown("An interactive model by Environment Africa for a project in rural Zimbabwe.")
+st.markdown("An interactive model for sustainability by Environment Africa.")
 
 # --- SIDEBAR FOR USER INPUTS ---
 st.sidebar.header("Simulation Parameters")
@@ -323,54 +323,54 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.subheader("1. Institutional Strengthening")
-    st.markdown("""
-    - **Community Ownership:** Transfer management to local farmer groups, schools, or cooperatives.
-    - **Leadership Training:** Equip local leaders with skills in nursery management, record keeping, and decision-making.
-    - **Local Policies:** Work with local authorities to integrate the project into agricultural development plans.
-    """)
+    # st.markdown("""
+    # - **Community Ownership:** Transfer management to local farmer groups, schools, or cooperatives.
+    # - **Leadership Training:** Equip local leaders with skills in nursery management, record keeping, and decision-making.
+    # - **Local Policies:** Work with local authorities to integrate the project into agricultural development plans.
+    # """)
 
     st.subheader("4. Partnerships and Networking")
-    st.markdown("""
-    - **Linkages with Agro-dealers:** Partner with seed suppliers and agro-shops to secure reliable seed supply.
-    - **Schools and Community Groups:** Engage schools and youth clubs to expand participation.
-    - **Market Linkages:** Connect seedling producers with local markets and commercial farmers.
-    """)
+    # st.markdown("""
+    # - **Linkages with Agro-dealers:** Partner with seed suppliers and agro-shops to secure reliable seed supply.
+    # - **Schools and Community Groups:** Engage schools and youth clubs to expand participation.
+    # - **Market Linkages:** Connect seedling producers with local markets and commercial farmers.
+    # """)
 
 with col2:
     st.subheader("2. Financial Sustainability")
-    st.markdown("""
-    - **Cost Recovery Model:** Farmers pay a small fee for seedlings, ensuring revenue covers production costs.
-    - **Microfinance/Cooperatives:** Facilitate access to small loans for farmer groups or groups managing nurseries.
-    - **Savings Groups:** Encourage farmer groups to form savings and credit schemes for reinvestment.
-    """)
+    # st.markdown("""
+    # - **Cost Recovery Model:** Farmers pay a small fee for seedlings, ensuring revenue covers production costs.
+    # - **Microfinance/Cooperatives:** Facilitate access to small loans for farmer groups or groups managing nurseries.
+    # - **Savings Groups:** Encourage farmer groups to form savings and credit schemes for reinvestment.
+    # """)
 
     st.subheader("5. Environmental and Social Sustainability")
-    st.markdown("""
-    - **Eco-friendly Practices:** Promote organic fertilizers and water-efficient irrigation.
-    - **Diversity of Crops:** Encourage a mix of vegetable varieties to reduce the risk of pests and diseases.
-    - **Youth Engagement:** Involve young people through school and youth clubs to ensure continuity.
-    """)
+    # st.markdown("""
+    # - **Eco-friendly Practices:** Promote organic fertilizers and water-efficient irrigation.
+    # - **Diversity of Crops:** Encourage a mix of vegetable varieties to reduce the risk of pests and diseases.
+    # - **Youth Engagement:** Involve young people through school and youth clubs to ensure continuity.
+    # """)
 
 with col3:
     st.subheader("3. Capacity Building")
-    st.markdown("""
-    - **Skills Transfer:** Train farmers and youth in seedling production, pest and disease management, and business skills.
-    - **Demonstration Plots:** Establish learning sites for continuous training and innovation.
-    """)
+    # st.markdown("""
+    # - **Skills Transfer:** Train farmers and youth in seedling production, pest and disease management, and business skills.
+    # - **Demonstration Plots:** Establish learning sites for continuous training and innovation.
+    # """)
 
     st.subheader("6. Monitoring and Evaluation")
-    st.markdown("""
-    - **Community Monitoring Committees:** Form groups to track seedling production, sales, and challenges.
-    - **Annual Reviews:** Hold farmer-led evaluations to assess project operations.
-    - **Knowledge Sharing:** Use field days, WhatsApp groups, and workshops to share best practices.
-    """)
+    # st.markdown("""
+    # - **Community Monitoring Committees:** Form groups to track seedling production, sales, and challenges.
+    # - **Annual Reviews:** Hold farmer-led evaluations to assess project operations.
+    # - **Knowledge Sharing:** Use field days, WhatsApp groups, and workshops to share best practices.
+    # """)
 
 
-# --- PROJECT VISION & FOOTER ---
-st.header("Project Vision")
-col1, col2 = st.columns(2)
-col1.image("https://i.imgur.com/gqyRU81.jpeg", caption="High-quality vegetable seedlings ready for local farmers.", use_column_width=True)
-col2.image("https://i.imgur.com/2a99hpD.jpeg", caption="Tree seedlings to support afforestation and community orchards.", use_column_width=True)
+# # --- PROJECT VISION & FOOTER ---
+# st.header("Project Vision")
+# col1, col2 = st.columns(2)
+# col1.image("https://i.imgur.com/gqyRU81.jpeg", caption="High-quality vegetable seedlings ready for local farmers.", use_column_width=True)
+# col2.image("https://i.imgur.com/2a99hpD.jpeg", caption="Tree seedlings to support afforestation and community orchards.", use_column_width=True)
 
 st.markdown(
     """
