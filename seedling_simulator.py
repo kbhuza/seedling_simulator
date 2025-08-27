@@ -358,7 +358,7 @@ with col3:
     # - **Demonstration Plots:** Establish learning sites for continuous training and innovation.
     # """)
 
-    st.subheader("6. Monitoring and Evaluation")
+    # st.subheader("6. Monitoring and Evaluation")
     # st.markdown("""
     # - **Community Monitoring Committees:** Form groups to track seedling production, sales, and challenges.
     # - **Annual Reviews:** Hold farmer-led evaluations to assess project operations.
